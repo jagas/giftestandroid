@@ -37,10 +37,14 @@ public class MainActivityFragment extends Fragment {
         list.setLayoutManager(mLayoutManager);
         String[] myDataset = new String[]
                 {"https://media.giphy.com/media/63cx21uYEl3aM/giphy.gif",
-                "https://media.giphy.com/media/IgdZpQHUR7sbe/giphy.gif", "https://media.giphy.com/media/8oTjltulq40BG/giphy.gif"};
-//        , "https://media.giphy.com/media/63cx21uYEl3aM/giphy.gif",
-//                "https://media.giphy.com/media/IgdZpQHUR7sbe/giphy.gif", "https://media.giphy.com/media/8oTjltulq40BG/giphy.gif"
-        // specify an adapter (see also next example)
+                "https://media.giphy.com/media/IgdZpQHUR7sbe/giphy.gif",
+                        "https://media.giphy.com/media/8oTjltulq40BG/giphy.gif",
+                "https://media.giphy.com/media/l46CAeMR1XVgrpY5O/giphy.gif",
+                        "https://media.giphy.com/media/l46Cr6nhtezksI2dO/giphy.gif",
+                "https://media.giphy.com/media/l41Yy14JIoB8ipUTS/giphy.gif",
+                "https://media.giphy.com/media/xT8qB8YvduMuybqHSw/giphy.gif",
+                "https://media.giphy.com/media/3o72F3lOmSJjJZLZW8/giphy.gif"};
+
         MyAdapter mAdapter = new MyAdapter(myDataset);
         list.setAdapter(mAdapter);
     }
